@@ -1,0 +1,14 @@
+{
+  "name": "test-pnpm-exit",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev:web": "node ./web-dev.js",
+    "dev:node": "node ./node-dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
